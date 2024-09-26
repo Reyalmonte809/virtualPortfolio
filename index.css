@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(180, 175, 175);
+}
+.navbar{
+    background-color: white;
+    padding: 2rem 1rem;
+    /* justify-content: right; */
+}
+a{
+    text-decoration: none;
+    color:  rgb(180, 175, 175);
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+a:hover{
+    color: aqua;
+}
+.name{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5rem;
+    color: rgb(114, 113, 113) ;
+}
+.title{
+    font-size: 2rem;
+}
+.bodyParagraph{
+    /* margin-top: 10rem; */
+    float: right;
+}
