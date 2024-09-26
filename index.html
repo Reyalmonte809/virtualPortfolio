@@ -111,8 +111,16 @@
             .modal-content {
                 width: 100%;
             }
+        }   
+             @media only screen and (min-width: 1200px) {
+            #mainPic {
+                
+                height:20em;
+                width:20rem;
+                border-radius: 25rem;
+            }
         }
-        @media only screen and (min-width: 1200px) {
+        @media only screen and (min-width: 2000px) {
             #mainPic {
                 
                 height:35rem;
@@ -120,6 +128,7 @@
                 border-radius: 25rem;
             }
         }
+
     </style>
 </head>
 
@@ -136,7 +145,7 @@
         </nav>
     </div>
     <div id="centerPiece">
-        <img src="./images/portfolioPic.jpg" alt="mainPic" id="mainPic">
+        <img src="./images/portfolioPic.jpg" alt="mainPic" id="mainPic" class="col-lg-4 col-xl-2">
         <p class="bodyParagraph col-md-6 col-lg-6 col-xl-8" id="bodyParagraph">Welcome to my Digital Portfolio <br><br>
             <span class="indexParagraph">I am a dedicated and detail-oriented DevOps engineer with an Associate's
                 degree, a certification from
