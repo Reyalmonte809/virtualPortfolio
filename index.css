@@ -94,7 +94,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; 
     gap: 20px; 
-    background-color:rgb(180, 175, 175) ;
+    /* background-color:rgb(180, 175, 175) ; */
+     /* margin-top: 2rem ;
+     margin-left: 2rem;
+     margin-right: 2rem; */
+    
 }
 
 .resumePicContainer {
@@ -114,7 +118,7 @@ footer {
 
 .resumeName2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 0;
 }
 
