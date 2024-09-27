@@ -161,3 +161,18 @@ footer {
     background-color: white;
     padding: 3rem;
 }
+.cardImg{
+    height: 350px;
+    width: 350px;
+    align-self: center;
+    padding: 1rem;
+}
+.card-body{
+    text-align: center;
+}
+div .card{
+    display: grid;
+    /* grid-template-columns: 1fr;  */
+
+    margin: 2rem;
+}
