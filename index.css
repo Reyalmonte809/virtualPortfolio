@@ -170,7 +170,7 @@ footer {
 .card-body{
     text-align: center;
 }
-div .card{
+.card{
     display: grid;
     /* grid-template-columns: 1fr;  */
 
